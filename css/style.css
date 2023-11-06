@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+display: flex;
+overflow: hidden;
+min-height: 100vh;
+background-color:peru;
+position: relative;
+}
+.animetion{
+    position: absolute;
+}
+.shap-left{
+    bottom: -100px;
+    left: -70px; 
+    width: 440px;
+    height: 440px;
+}
+#shap-left-bottom{
+    width: 500px;
+ height: 500px;
+ left: -150px;
+ bottom:-100px;
+}
+#shap-right{
+width: 400px;
+height: 400px;
+ right:-130px;
+ bottom: -100px;
+
+}
+#shap-right2{
+    width: 380px;
+    height: 380px;
+    right: -40px;
+    bottom: -40px;
+}
+#shap-top-right{
+    width: 450px;
+    height: 400px;
+    right: -50px;
+    top: -230px;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: auto;
+}
